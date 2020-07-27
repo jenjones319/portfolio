@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+@import url("https://fonts.googleapis.com/css?family=Arvo|Lato" rel="stylesheet");
 @import "reset.css"
 @import "base.css"
 @import "layout.css"
@@ -86,12 +86,12 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
+		background: olive;
+		font-family: 'Lato', Sans-Serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: olive;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -106,7 +106,7 @@ input, select, textarea {
 		}
 
 	input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Lato', Sans-Serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
